@@ -1,0 +1,92 @@
+body{
+    font-family:Arial,sans-serif;
+    background-color:#f4f4f9;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.container {
+    width:90%;
+    max-width:450px;
+    margin:50px auto;
+    padding:25px;
+    background-color:white;
+    border-radius:10px;
+    box-sizing:border-box;
+}
+h1 {
+    font-size:28px;
+    color:#000000;
+    text-align:center;
+    margin-bottom:25px;
+}
+form {
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+input[type="email"] {
+    width:100%;
+    padding:12px;
+    border:1px solid #cccccc;
+    border-radius:6px;
+    box-sizing: border-box;
+    font-size:16px;
+}
+button {
+    background-color:#0B1F4D;
+    color:white;
+    padding:12px;
+    border:none;
+    border-radius:6px;
+    font-size:16px;
+    cursor:pointer;
+}
+button:hover {
+    background-color:#163A70;
+}
+.messages {
+    margin-top:20px;
+    padding:10px;
+    border-radius:6px;
+    color:#155724;
+    background-color:#d4edda;
+}
+.unsubscribe-container {
+    width:90%;
+    max-width:450px;
+    margin:50px auto;
+    padding:25px;
+    background-color: white;
+    border-radius:10px;
+    box-sizing: border-box;
+}
+.unsubscribe-container a {
+    color:#333333;
+    text-decoration:none;
+    font-weight:bold;
+}
+.unsubscribe-container a:hover {
+    text-decoration: underline;
+}
+@media (max-width:768px) {
+    .container,
+    .unsubscribe-container {
+        width:90%;
+        margin:30px auto;
+        padding:20px;
+    }
+    h1 {
+        font-size:24px;
+    }
+}
+@media (max-width: 360px) {
+    .container,
+    .unsubscribe-container {
+        width:95%;
+        padding:15px;
+    }
+    h1 {
+        font-size: 22px;
+    }
+}
